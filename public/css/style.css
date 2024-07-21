@@ -1,0 +1,62 @@
+body{
+  background-color: pink;
+  }
+  .navbar{
+      height:60pxpx;
+  }
+  .fa-compass{
+      color:red;
+      font-size: 2 rem;
+  }
+  /*footer*/
+  .f-info-links a{
+      text-decoration: none;
+      color:#222222;
+      font-size: 20px;
+  }
+  .f-info{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      align-items:space-evenly;
+  }
+  /* .card{
+      border:none !important;
+  
+  } */
+  .card-img-top{
+      border-radius: 10px;
+  }
+  .card-text p{
+      font-weight:400;
+  }
+  body {
+      font-family: "Roboto", sans-serif!important;
+      font-weight: 100;
+      font-style: normal;
+    }
+    .listing-link{
+      text-decoration: none;
+    }
+    .card-img-overlay{
+      opacity:0;
+    }
+    .card-img-overlay:hover{
+      opacity:0.2;
+      background-color: white;
+    }
+    .btns{
+      display:flex;
+      justify-content: space-between;
+    }
+    .container-fluid{
+      background-image: url('https://res.cloudinary.com/duiq9m0c1/image/upload/v1721543587/Screenshot_2024-07-21_at_5.52.20_AM_tnpw79.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: wheat;
+            
+    }
+    .card-text{
+      font-size: 20px;
+    }

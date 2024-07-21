@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-md bg-body-tertiary border-bottom sticky-top">
+  
+    <div class="container-fluid" >
+      <a class="navbar-brand" href="/listings"><i class="fa-regular fa-compass"></i><div style="height:50px;width:250px;border:5px black solid;background-color:white;opacity:0.6;border-radius: 20px;"><p>back to home page</p></div></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+          <% if(!currUser){ %>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="/login">login</a>
+          </li>
+          <% } %>
+          <% if(currUser){ %>
+          <li class="nav-item">
+            <a class="nav-link" href="/logout">logout</a>
+          </li>
+          <% } %>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/">Home</a></li>
+              <li><a class="dropdown-item" href="/listings">all listings</a></li>
+              <li><a class="dropdown-item" href="/listings/new">add new listings</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/signup">signup</a></li>
+              <li><a class="dropdown-item" href="/login">log in</a></li>
+              <li><a class="dropdown-item" href="/logout">log out</a></li>
+              
+            </ul>
+          </li> -->
+          
+        </ul>
+        
+      </div>
+    </div>
+  </nav>

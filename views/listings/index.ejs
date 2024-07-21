@@ -1,0 +1,25 @@
+<% layout("/layouts/boilerplate")%>
+<body >
+    <h3>welcome to inRReach</h3>
+    <form method="GET" action="/listings/new">
+        <button>create new listing</button>
+    </form>
+    <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-1">
+        
+            <% for (let listing of allListings){%>
+                <a href="/listings/<%=listing._id%>" class="listing-link">
+                <div class="card" style="width: 20rem;">
+                    <img src="<%=listing.image.url%>" class="card-img-top" alt="..." style="height: 22rem;">
+                    <div class="card-img-overlay">inRReach</div>
+                    <div class="card-body" style="font: 200;">
+                      <p class="card-text"> <li><%=listing.title%></li></p>
+                    
+                    </div>
+                  </div>
+                </a>
+                <%}%>
+            
+            
+    </div>
+    
+</body>

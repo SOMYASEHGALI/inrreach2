@@ -1,0 +1,51 @@
+body{
+    background-color: pink;
+    }
+    .navbar{
+        height:5rem;
+    }
+    .fa-compass{
+        color:red;
+        font-size: 2 rem;
+    }
+    /*footer*/
+    .f-info-links a{
+        text-decoration: none;
+        color:#222222;
+        font-size: 20px;
+    }
+    .f-info{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:space-evenly;
+    }
+    /* .card{
+        border:none !important;
+    
+    } */
+    .card-img-top{
+        border-radius: 10px;
+    }
+    .card-text p{
+        font-weight:400;
+    }
+    body {
+        font-family: "Roboto", sans-serif!important;
+        font-weight: 100;
+        font-style: normal;
+      }
+      .listing-link{
+        text-decoration: none;
+      }
+      .card-img-overlay{
+        opacity:0;
+      }
+      .card-img-overlay:hover{
+        opacity:0.2;
+        background-color: white;
+      }
+      .btns{
+        display:flex;
+        justify-content: space-between;
+      }
